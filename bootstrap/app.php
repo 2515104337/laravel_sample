@@ -16,6 +16,7 @@ $app = new Illuminate\Foundation\Application(
 );
 
 $app->register(Overtrue\LaravelLang\TranslationServiceProvider::class);
+require __DIR__.'/helpers.php';
 
 /*
 |--------------------------------------------------------------------------
